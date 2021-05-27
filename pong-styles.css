@@ -4,12 +4,12 @@ Feel free to play with things like color or font
 */
 
 html,
-body {background-image: url(Fish.gif);
+body {
   padding: 0;
   margin: 0;
 }
 
-#game {
+#game {background-image: url(Fish.gif);
   margin: 10px;
   border: 5px solid black;
   left: 0;
@@ -17,13 +17,13 @@ body {background-image: url(Fish.gif);
 }
 
 #left-paddle {
-  background-color: green;
+  background-color: white;
   left: 10px;
   height: 25px;
 }
 
 #right-paddle {
-  background-color: blue;
+  background-color: rgb(0, 225, 255);
   right: 10px;
 }
 
